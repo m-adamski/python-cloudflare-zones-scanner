@@ -32,6 +32,12 @@ or by using the make utility:
 make install
 ```
 
+## Running the module
+
+```commandline
+python main TOKEN_HERE --xlsx-file=cloudflare.xlsx
+```
+
 ## Virtual environment
 
 The venv module provides support for creating "virtual environments" with your own independent set of Python packages. In order to prepare a virtual environment, we must first create it and then connect to it:
@@ -52,12 +58,6 @@ In order to run the module with automatic connection to the virtual environment,
 
 ```commandline
 bin/run-venv.sh TOKEN_HERE --xlsx-file=cloudflare.xlsx
-```
-
-## Running the module
-
-```commandline
-python main TOKEN_HERE --xlsx-file=cloudflare.xlsx
 ```
 
 ## License
