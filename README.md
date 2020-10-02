@@ -18,6 +18,10 @@ optional arguments:
                         The name of the resulting file in XLSX format
 ```
 
+## Cloudflare API Token
+In order to generate a list of domains and DNS entries, the tool needs access to your Cloudflare account. 
+Generate API Token with permission to read Zone and DNS entries (Zone.Zone, Zone.DNS).
+
 ## Installation
 
 The module uses additional packages that must be installed with the package installer for Python. To do this, run the command:
